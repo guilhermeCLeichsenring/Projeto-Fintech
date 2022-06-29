@@ -1,0 +1,154 @@
+/*=== GERAL =================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  :root {
+      --primary-color: hsl(153, 43%, 55%);
+      --grenn-color: #71FF6F;
+      --red-color: #FF6F6F;
+
+
+      font-size: 62.5%; /* 1rem = 10px */
+    }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+
+      background-color: hsl(0, 6%, 79%);
+    }
+
+  .middle_page {
+    
+
+    width: min(36rem);
+    height: 100%;
+    margin-inline: auto;
+
+    background-color: var(--primary-color);
+
+    }
+
+    .white_frame {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    position: relative;
+    bottom: 5.1rem;
+        
+    padding-top: 9rem;
+
+    margin: auto;
+    
+    border-radius: 1.5rem;
+    width: min(30.7rem);
+
+    /* border-radius: 10rem; */
+    background-color: white;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+/* =============================== Itens ===================================== */
+    .logo{
+        width: 16.2rem;
+        height: 16.2rem;
+        z-index: 9999;
+
+        background-color: white;
+
+        border-radius: 50%;
+
+        position: relative;
+
+        left: 50%;
+        top: 1.7rem;
+        transform: translate(-50%, 0);
+    }
+
+    .logo img{
+        position: absolute;
+        left: 50%;
+        top: 1.2rem;
+        transform: translate(-50%, 0);
+    }
+
+
+    .options {
+        float: right;
+
+        padding-top: 2.4rem;
+        padding-right: 2rem;
+    }
+
+
+    .white_frame h1{
+        text-align: center;
+
+        font-size: 5rem;
+        font-weight: bold;
+
+
+    }
+
+    .white_frame form{
+
+        margin-inline: 2rem;
+    }
+
+
+    .white_frame form .form-control{
+        height: 4rem;
+        border: var(--primary-color) solid 0.1rem ; 
+
+        margin-top: 2rem;
+
+        border-radius: 1rem;
+    }
+
+    .white_frame form .form-control::placeholder{
+        text-align: center;
+
+        margin: auto;
+
+        font-size: 1.7rem;
+    }
+
+     .recovery a{
+        display: flex;
+        justify-content: center;
+
+        text-decoration: none;
+
+        color: black;
+        font-size : 1.8rem;
+    }  
+
+    .white_frame .form-check{
+        font-size: 2rem;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 0.4rem;
+
+        margin-top: 6.2rem;
+    }
+
+    .white_frame form button {
+        text-transform: uppercase;
+
+        border-radius: 1rem;
+
+        font-size: 2.5rem;
+
+        width: 26.6rem;
+        height: 4rem;
+
+        margin-bottom: 5.7rem;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
